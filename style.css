@@ -136,8 +136,14 @@ body {
   text-align: center;
 }
 
+/* ACTIVE CLASSES */
 .hidden {
   display: none;
+}
+
+.active {
+  background-color: var(--light-grey);
+  color: var(--white);
 }
 
 @media screen and (max-width: 300px) {
